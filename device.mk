@@ -338,6 +338,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# NFC
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    com.nxp.nfc.nq \
+    NQNfcNci \
+    Tag
+
+PRODUCT_PACKAGES += \
+    nfc_nci.nqx.default.hw \
+    vendor.nxp.hardware.nfc@1.2-service
+
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
