@@ -10,7 +10,7 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
-DEVICE_PATH := device/lenovo/zippo
+DEVICE_PATH := device/lenovo/heart
 
 # Architecture
 TARGET_ARCH := arm64
@@ -30,7 +30,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zippo
+TARGET_OTA_ASSERT_DEVICE := heart
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msmnile
@@ -49,7 +49,7 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_SEPARATED_DTBO := true
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := lineage_zippo_defconfig
+  TARGET_KERNEL_CONFIG := lineage_heart_defconfig
   KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/aarch64-elf/bin
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
   TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
@@ -210,4 +210,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/lenovo/zippo/BoardConfigVendor.mk
+-include vendor/lenovo/heart/BoardConfigVendor.mk

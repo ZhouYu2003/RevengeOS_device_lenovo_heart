@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=zippo
+DEVICE=heart
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo_zippo"
+#define LOG_TAG "lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo_heart"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

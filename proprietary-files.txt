@@ -1252,8 +1252,8 @@ vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/icm4x6xx_0.json
 vendor/etc/sensors/config/mn26xxx_0.json
 vendor/etc/sensors/config/mn58xxx_0.json
-vendor/etc/sensors/config/msmnile_ak991x_0_zippo.json
-vendor/etc/sensors/config/msmnile_icm4x6xx_0_zippo.json
+vendor/etc/sensors/config/msmnile_ak991x_0_heart.json
+vendor/etc/sensors/config/msmnile_icm4x6xx_0_heart.json
 vendor/etc/sensors/config/msmnile_irq.json
 vendor/etc/sensors/config/msmnile_mn26xxx_0.json
 vendor/etc/sensors/config/msmnile_mn58xxx_0.json
@@ -1372,7 +1372,7 @@ vendor/lib/libaoa.so
 vendor/lib64/libaoa.so
 
 # WiFi firmware
-vendor/firmware/bdwlan_zippo.bin
+vendor/firmware/bdwlan_heart.bin
 
 # WiFi Display - from qssi_NX627J-user-11-RKQ1.200826.002-nubia.20201029.204053-release-keys
 system_ext/bin/wfdservice|91f6e2d58de9354a694d3b3da6e6d224dd7e47c1
