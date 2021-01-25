@@ -10,6 +10,10 @@ $(call inherit-product, device/lenovo/heart/device.mk)
 $(call inherit-product, vendor/lineage/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#crDroid Specific
+TARGET_HAS_FOD := true
+EXTRA_FOD_ANIMATIONS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := heart
