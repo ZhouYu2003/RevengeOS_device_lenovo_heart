@@ -464,6 +464,9 @@
          The user is forbidden from setting the brightness above this level. -->
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
 
+    <!-- Screen brightness when dozing -->	
+    <integer name="config_screenBrightnessDoze">17</integer>
+
      <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
 
