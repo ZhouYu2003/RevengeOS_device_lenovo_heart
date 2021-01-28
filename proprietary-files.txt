@@ -1055,7 +1055,7 @@ vendor/lib/libaoa.so
 vendor/lib64/libaoa.so
 
 # WiFi firmware
-vendor/firmware/bdwlan_heart.bin
+vendor/firmware/bdwlan_zippo.bin
 
 # WiFi Display - from qssi_NX627J-user-11-RKQ1.200826.002-nubia.20201029.204053-release-keys
 system_ext/bin/wfdservice|91f6e2d58de9354a694d3b3da6e6d224dd7e47c1
