@@ -57,6 +57,9 @@ ro.vendor.bluetooth.wipower=false
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 
+# NFC
+ro.hardware.nfc_nci=pn8x
+
 # Boot
 sys.vendor.shutdown.waittime=500
 

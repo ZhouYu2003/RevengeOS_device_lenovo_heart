@@ -887,6 +887,27 @@ vendor/lib/libqcodec2.so|c163e469736259078b3e7909373f52ea4bc60657
 vendor/lib64/libmedia_ecoservice.so|3ea4a8a5b7bc0b14496d62695f9c67277e150017
 vendor/lib64/libqcodec2.so|992757f9809b798fea033e0bdafe08ad6f7814c3
 
+# NFC
+etc/permissions/com.nxp.nfc.xml
+-framework/com.nxp.nfc.jar
+vendor/bin/hw/android.hardware.nfc@1.2-service
+vendor/bin/hw/vendor.qti.secure_element@1.0-service
+vendor/bin/nqnfcinfo
+vendor/etc/init/android.hardware.nfc@1.2-service.rc
+vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/lib/android.hardware.secure_element@1.0-impl.so
+vendor/lib/hw/android.hardware.nfc@1.0-impl.so
+vendor/lib/libpn553_fw.so
+vendor/lib64/android.hardware.secure_element@1.0-impl.so
+vendor/lib64/ese_spi_nxp.so
+vendor/lib64/hal_libnfc.so
+vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
+vendor/lib64/nfc_nci_nxp.so
+vendor/lib64/vendor.nxp.nxpese@1.0.so
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so
+
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
