@@ -120,7 +120,11 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libdng_sdk.vendor \
+    android.frameworks.displayservice@1.0 \
+    libdng_sdk \	
+    libgui_vendor \	
+    libqti-perfd-client \	
+    libxml2 \
     Snap
 
 PRODUCT_COPY_FILES += \
