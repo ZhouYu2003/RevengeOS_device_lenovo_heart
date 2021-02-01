@@ -121,9 +121,9 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
-    libdng_sdk \	
-    libgui_vendor \	
-    libqti-perfd-client \	
+    libdng_sdk \
+    libgui_vendor \
+    libqti-perfd-client \
     libxml2 \
     Snap
 
@@ -203,9 +203,9 @@ PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.lenovo_heart
 
 # FM	
-PRODUCT_PACKAGES += \	
-    FM2 \	
-    libqcomfm_jni \	
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
     qcom.fmradio
 
 # Fstab
