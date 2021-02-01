@@ -560,7 +560,7 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.goodix.extend.service@2.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-FM
+# FM
 lib/fm_helium.so
 lib/libfm-hci.so
 lib64/fm_helium.so
@@ -1096,7 +1096,7 @@ product/lib/lib-imsvideocodec.so
 product/lib/lib-imsvt.so
 product/lib/lib-imsvtextutils.so
 product/lib/lib-imsvtutils.so
-lib/libdiag_system.so
+product/lib/libdiag_system.so
 product/lib/libimscamera_jni.so
 product/lib/libimsmedia_jni.so
 lib/libmmrtpdecoder.so
@@ -1120,7 +1120,7 @@ product/lib64/lib-imsvideocodec.so
 product/lib64/lib-imsvt.so
 product/lib64/lib-imsvtextutils.so
 product/lib64/lib-imsvtutils.so
-lib64/libdiag_system.so
+product/lib64/libdiag_system.so
 product/lib64/libimscamera_jni.so
 product/lib64/libimsmedia_jni.so
 lib64/libmmrtpdecoder.so
